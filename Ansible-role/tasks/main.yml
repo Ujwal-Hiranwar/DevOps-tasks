@@ -1,5 +1,5 @@
 ---
-# tasks file for first-role
+# tasks file for first-role to install and start nengix in ubuntu server
 - name : Install nginx
   shell : apt install ngnix
 
