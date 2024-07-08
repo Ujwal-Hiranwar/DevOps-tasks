@@ -1,2 +1,9 @@
 ---
 # tasks file for first-role
+- name : Install nginx
+  shell : apt install ngnix
+
+- name : Start nginx
+  service :
+    name : nginx
+    state : started
